@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* write your CSS here */
+.top-section{
+    text-align:center;
+    background-color: rgb(212, 68, 68);
+    border-radius: .1rem;
+    padding: 1rem;
+    color: white;
+    font-family: monospace;
+}
+
+.top-section p{
+    padding-top: 1rem;
+}
+
+.cards{
+    display: flex;
+    gap: 1rem;
+}
+
+.choosing-plan {
+    text-align: center;
+    margin-top: 12rem;
+}
+
+h1{
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+.main-text{
+    padding: 2rem;
+}
+
+.bill-section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.bill-text{}
+
+.left-card, .mid-card, .right-card{
+    background-color: gray;
+    padding: 3rem;
+    max-width: fit-content;
+    border-radius: .3rem;
+}
+
+.mini-text{
+    padding: .2rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.choose-btn{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: .3rem;
+    border-style: none;
+    width: 14rem;
+}
