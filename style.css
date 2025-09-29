@@ -44,7 +44,7 @@ h1{
     justify-content: center;
 }
 
-.bill-text{}
+/* .bill-text{} */
 
 .left-card, .mid-card, .right-card{
     background-color: gray;
